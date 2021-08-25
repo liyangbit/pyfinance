@@ -2,13 +2,14 @@
 - [02 部分内容介绍](#02-部分内容介绍)
   - [财经工具 Tushare 介绍](#财经工具-tushare-介绍)
     - [使用 Tushare](#使用-tushare)
-  - [制定投资计划](#制定投资计划)
+  - [用Python制定投资计划](#用python制定投资计划)
+  - [用 Python 快速追踪基金的收益情况](#用-python-快速追踪基金的收益情况)
 
 主要分享 Python 在财经领域的一些实践。
 
 ---
 
-**风险提示：**仓库内容主要目的是给大家分享 Python 在财经领域的应用，文中提到的品种或标的，仅作为文中技术实现之用。投资有风险，入市需谨慎，文中内容不构成投资建议，抄作业请理性分析市场。
+**风险提示：** 仓库内容主要目的是给大家分享 Python 在财经领域的应用，文中提到的品种或标的，仅作为文中技术实现之用。投资有风险，入市需谨慎，文中内容不构成投资建议，抄作业请理性分析市场。
 
 ---
 # 01 微信公众号文章代码文件列表
@@ -24,6 +25,7 @@
 |文章发布日期|文章名称及链接|代码 / 数据文件|
 |-------|---------|---------|
 |20210131|[财经数据神器 Tushare，股票数据全搞定](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)|[请点击链接](https://github.com/liyangbit/PyDataRoad/tree/master/comprehensive/Tushare)|
+|20210831|[用 Python 快速追踪基金的收益情况](http://liyangbit.com/)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
 
 
 # 02 部分内容介绍
@@ -73,7 +75,7 @@ pro = ts.pro_api()
 
 - [神器Tushare，财经数据必备工具！](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)
 
-## 制定投资计划
+## 用Python制定投资计划
 
 可以用 excel 或 Python 来制定单个标的的投资计划，相对来说，用 Python 制作的计划的复用性要好些。
 
@@ -81,4 +83,18 @@ pro = ts.pro_api()
 
 [![2-Python表格](https://tva1.sinaimg.cn/large/008i3skNgy1gswp9l5g85j30oo0g276a.jpg)](https://mp.weixin.qq.com/s/1bmyG7LmXNUfXtFsb_mgnQ)
 
+详细的实现过程，可以参考下面的内容“
 
+- [用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)
+
+## 用 Python 快速追踪基金的收益情况
+
+用 Python 来追踪和更新基金的收益情况，涉及到的Python库主要是 pandas 和 tushare。
+
+最终实现的效果如下：
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gtt3x6riggj60xi0u0wn802.jpg)
+
+详细的实现过程，代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+
+- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
