@@ -1,7 +1,6 @@
 - [01 微信公众号文章代码文件列表](#01-微信公众号文章代码文件列表)
 - [02 部分内容介绍](#02-部分内容介绍)
   - [财经工具 Tushare 介绍](#财经工具-tushare-介绍)
-    - [使用 Tushare](#使用-tushare)
   - [用Python制定投资计划](#用python制定投资计划)
   - [用 Python 快速追踪基金的收益情况](#用-python-快速追踪基金的收益情况)
 
@@ -42,7 +41,7 @@ Tushare 是一个金融大数据平台，数据内容包含股票、指数、基
 ![tushare思维导图](https://tva1.sinaimg.cn/large/008eGmZEgy1gn3r6vz09nj30u016r7mw.jpg)
 
 
-### 使用 Tushare
+**使用 Tushare**
 
 Tushare 平台的数据，已全面升级到 tushare pro 了，通常情况下，还是称之为 tushare。
 
