@@ -21,9 +21,12 @@
 
 微信公众号上目前已发布的部分文章链接，以及对应的代码或数据文件如下：
 
+
+
 |发布日期|文章名称及链接|代码 / 数据文件|
 |-------|---------|---------|
-|20210826|[用 Python 快速追踪基金的收益情况](http://liyangbit.com/)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
+|20210826|[用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
+|20210729|[用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202107-trade-plan.ipynb` 文件|
 |20210131|[财经数据神器 Tushare，股票数据全搞定](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)|[请点击链接](https://github.com/liyangbit/PyDataRoad/tree/master/comprehensive/Tushare)|
 
 # 02 部分内容介绍
