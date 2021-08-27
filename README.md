@@ -1,8 +1,8 @@
 - [01 微信公众号文章代码文件列表](#01-微信公众号文章代码文件列表)
 - [02 部分内容介绍](#02-部分内容介绍)
-  - [财经工具 Tushare 介绍](#财经工具-tushare-介绍)
-  - [用Python制定投资计划](#用python制定投资计划)
-  - [用 Python 快速追踪基金的收益情况](#用-python-快速追踪基金的收益情况)
+  - [2.1 财经工具 Tushare 介绍](#21-财经工具-tushare-介绍)
+  - [2.2 用Python制定投资计划](#22-用python制定投资计划)
+  - [2.3 用 Python 快速追踪基金的收益情况](#23-用-python-快速追踪基金的收益情况)
 
 主要分享 Python 在财经领域的一些实践。
 
@@ -31,7 +31,7 @@
 
 # 02 部分内容介绍
 
-## 财经工具 Tushare 介绍
+## 2.1 财经工具 Tushare 介绍
 
 关于财经数据，有多个Python库可以供咱们选择，其中 tushare 是国内较早开始发布财经数据的社区，其内容比较完善，今天我们使用的就是 tushare 。
 
@@ -76,7 +76,7 @@ pro = ts.pro_api()
 
 - [神器Tushare，财经数据必备工具！](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)
 
-## 用Python制定投资计划
+## 2.2 用Python制定投资计划
 
 可以用 excel 或 Python 来制定单个标的的投资计划，相对来说，用 Python 制作的计划的复用性要好些。
 
@@ -84,11 +84,11 @@ pro = ts.pro_api()
 
 [![2-Python表格](https://tva1.sinaimg.cn/large/008i3skNgy1gswp9l5g85j30oo0g276a.jpg)](https://mp.weixin.qq.com/s/1bmyG7LmXNUfXtFsb_mgnQ)
 
-详细的实现过程，可以参考下面的内容“
+详细的实现过程，可以参考下面的内容:
 
 - [用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)
 
-## 用 Python 快速追踪基金的收益情况
+## 2.3 用 Python 快速追踪基金的收益情况
 
 用 Python 来追踪和更新基金的收益情况，涉及到的Python库主要是 pandas 和 tushare。
 
