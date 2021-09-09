@@ -1,8 +1,9 @@
 - [01 微信公众号文章代码文件列表](#01-微信公众号文章代码文件列表)
 - [02 部分内容介绍](#02-部分内容介绍)
-  - [2.1 财经工具 Tushare 介绍](#21-财经工具-tushare-介绍)
+  - [2.1 财经工具Tushare介绍](#21-财经工具tushare介绍)
   - [2.2 用Python制定投资计划](#22-用python制定投资计划)
-  - [2.3 用 Python 快速追踪基金的收益情况](#23-用-python-快速追踪基金的收益情况)
+  - [2.3 用Python追踪基金的收益情况](#23-用python追踪基金的收益情况)
+  - [2.4 用Python获取基金持仓情况](#24-用python获取基金持仓情况)
 
 主要分享 Python 在财经领域的一些实践。
 
@@ -25,13 +26,14 @@
 
 |发布日期|文章名称及链接|代码 / 数据文件|
 |-------|---------|---------|
+|20210910|[用 Python 快速获取基金持仓增值与减持情况](https://liyangbit.com)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202109-fund-stock-holding.ipynb` 文件|
 |20210826|[用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
 |20210729|[用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202107-trade-plan.ipynb` 文件|
 |20210131|[财经数据神器 Tushare，股票数据全搞定](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)|[请点击链接](https://github.com/liyangbit/PyDataRoad/tree/master/comprehensive/Tushare)|
 
 # 02 部分内容介绍
 
-## 2.1 财经工具 Tushare 介绍
+## 2.1 财经工具Tushare介绍
 
 关于财经数据，有多个Python库可以供咱们选择，其中 tushare 是国内较早开始发布财经数据的社区，其内容比较完善，今天我们使用的就是 tushare 。
 
@@ -88,7 +90,7 @@ pro = ts.pro_api()
 
 - [用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)
 
-## 2.3 用 Python 快速追踪基金的收益情况
+## 2.3 用Python追踪基金的收益情况
 
 用 Python 来追踪和更新基金的收益情况，涉及到的Python库主要是 pandas 和 tushare。
 
@@ -97,5 +99,25 @@ pro = ts.pro_api()
 ![](https://tva1.sinaimg.cn/large/008i3skNgy1gtt3x6riggj60xi0u0wn802.jpg)
 
 详细的实现过程，代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+
+- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
+
+## 2.4 用Python获取基金持仓情况
+
+用 Python 来追踪和更新基金的持仓结构以及基金的股票增持和减持情况，涉及到的Python库主要是 pandas 和 akshare 。
+
+最终实现的效果包括两个方面：
+
+- 单只基金的不同季度持仓变化情况
+- 多只基金的十大持仓的历史信息
+
+效果如下：
+
+![单只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t22r3yj616q0u0q7z02.jpg)
+
+![多只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg)
+
+
+详细的实现过程，代码文件请点击下面链接，查找 `202109-fund-stock-holding.ipynb` 文件：
 
 - [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
