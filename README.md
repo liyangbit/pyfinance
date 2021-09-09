@@ -121,7 +121,7 @@ pro = ts.pro_api()
 
 ![单只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t22r3yj616q0u0q7z02.jpg)
 
-![多只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg)
+![多只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu858qi25vj618a0qyn2d02.jpg)
 
 详细的实现过程，代码文件请点击下面链接，查找 `202109-fund-stock-holding.ipynb` 文件：
 
