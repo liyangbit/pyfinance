@@ -100,9 +100,13 @@ pro = ts.pro_api()
 
 ![](https://tva1.sinaimg.cn/large/008i3skNgy1gtt3x6riggj60xi0u0wn802.jpg)
 
-详细的实现过程，代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+详细的实现过程，参考下面的内容:
 
-- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
+- [用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)
+
+<!-- 详细的实现过程，代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+
+- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code) -->
 
 ## 2.4 用Python获取基金持仓情况
 
@@ -118,7 +122,6 @@ pro = ts.pro_api()
 ![单只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t22r3yj616q0u0q7z02.jpg)
 
 ![多只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg)
-
 
 详细的实现过程，代码文件请点击下面链接，查找 `202109-fund-stock-holding.ipynb` 文件：
 
