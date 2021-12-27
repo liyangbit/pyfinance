@@ -28,10 +28,13 @@
 
 |发布日期|文章名称及链接|代码 / 数据文件|
 |-------|---------|---------|
-|20210910|[用 Python 快速获取基金持仓增值与减持情况](https://liyangbit.com)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202109-fund-stock-holding.ipynb` 文件|
+|20210910|[用 Python 快速获取基金持仓增值与减持情况](ttps://mp.weixin.qq.com/s/yS0GZqVc7QEfwsGYY6XnGA)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202109-fund-stock-holding.ipynb` 文件|
 |20210826|[用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
 |20210729|[用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202107-trade-plan.ipynb` 文件|
 |20210131|[财经数据神器 Tushare，股票数据全搞定](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)|[请点击链接](https://github.com/liyangbit/PyDataRoad/tree/master/comprehensive/Tushare)|
+
+
+
 
 # 02 部分内容介绍
 
@@ -104,9 +107,9 @@ pro = ts.pro_api()
 
 - [用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)
 
-<!-- 详细的实现过程，代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
 
-- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code) -->
+- [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
 
 ## 2.4 用Python获取基金持仓情况
 
@@ -123,6 +126,10 @@ pro = ts.pro_api()
 
 ![多只基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg)
 
-详细的实现过程，代码文件请点击下面链接，查找 `202109-fund-stock-holding.ipynb` 文件：
+详细的实现过程，参考下面的内容:
+
+[用 Python 快速获取基金持仓增值与减持情况](https://mp.weixin.qq.com/s/yS0GZqVc7QEfwsGYY6XnGA)
+
+代码文件请点击下面链接，查找 `202109-fund-stock-holding.ipynb` 文件：
 
 - [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
