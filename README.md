@@ -124,7 +124,9 @@ pro = ts.pro_api()
 
 ![单支基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu858qi25vj618a0qyn2d02.jpg)
 
-![多支基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg)
+<!-- ![多支基金](https://tva1.sinaimg.cn/large/008i3skNgy1gu83t2qwfdj61e40lydmm02.jpg) -->
+
+![多支基金](https://tva1.sinaimg.cn/large/e6c9d24egy1gzprjdyz45j21ay0m4q8o.jpg)
 
 详细的实现过程，参考下面的内容:
 
