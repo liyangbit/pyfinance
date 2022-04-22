@@ -4,6 +4,7 @@
   - [2.2 用Python制定投资计划](#22-用python制定投资计划)
   - [2.3 用Python追踪基金的收益情况](#23-用python追踪基金的收益情况)
   - [2.4 用Python获取基金持仓情况](#24-用python获取基金持仓情况)
+- [03 延伸内容](#03-延伸内容)
 
 主要分享 Python 在财经领域的一些实践。
 
@@ -29,7 +30,7 @@
 |发布日期|文章名称及链接|代码 / 数据文件|
 |-------|---------|---------|
 |20220301<br>20220112<br>20210910|[用 Python 快速获取基金持仓增值与减持情况](https://mp.weixin.qq.com/s/prz7OQopCWl6SrBndSSMIw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202203-fund-stock-holding.ipynb` 文件|
-|20210826|[用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202108-mutual-fund.ipynb` 文件|
+|20220426<br>20210826|[用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202204-mutual-fund.ipynb` 文件|
 |20210729|[用Python来做一个投资计划](https://mp.weixin.qq.com/s/WYuMwCJBrWaBiDs8xp2KMA)|[请点击链接](https://github.com/liyangbit/pyfinance/tree/main/01code) ，查找 `202107-trade-plan.ipynb` 文件|
 |20210131|[财经数据神器 Tushare，股票数据全搞定](https://mp.weixin.qq.com/s/c1ukemeK12flCgA-lo69fA)|[请点击链接](https://github.com/liyangbit/PyDataRoad/tree/master/comprehensive/Tushare)|
 
@@ -99,13 +100,13 @@ pro = ts.pro_api()
 
 最终实现的效果如下：
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gtt3x6riggj60xi0u0wn802.jpg)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1iayr8myqj21f00qm7dz.jpg)
 
 详细的实现过程，参考下面的内容:
 
 - [用 Python 快速追踪基金的收益情况](https://mp.weixin.qq.com/s/7w3Ned9M5FqRQd6inxmeRw)
 
-代码文件请点击下面链接，查找 `202108-mutual-fund.ipynb` 文件：
+代码文件请点击下面链接，查找 `202204-mutual-fund.ipynb` 文件：
 
 - [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
 
@@ -133,3 +134,10 @@ pro = ts.pro_api()
 代码文件请点击下面链接，查找 `202203-fund-stock-holding.ipynb` 文件：
 
 - [代码文件列表](https://github.com/liyangbit/pyfinance/tree/main/01code)
+
+# 03 延伸内容
+
+[![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0iiejjflzj20go05kdhg.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect)
+
+
+[![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0iieh8vk4j20go05kaag.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=1370549534602133504&scene=21#wechat_redirect)
