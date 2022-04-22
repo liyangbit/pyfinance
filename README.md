@@ -20,8 +20,11 @@
 欢迎关注个人微信公众号“**Python数据之道**”（公号ID：**PyDataLab** ）。
 
 <div align="center">
-    <img src="./03image/QR-Python数据之道.jpg" width="200"/>
+    <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1idin3qoxj2076076t8y.jpg" width="200"/>
+
 </div>
+
+<!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1idin3qoxj2076076t8y.jpg) -->
 
 微信公众号上目前已发布的部分文章链接，以及对应的代码或数据文件如下：
 
